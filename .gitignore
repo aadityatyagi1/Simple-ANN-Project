@@ -1,4 +1,5 @@
 
+
 # Virtual environments
 venv/
 .venv/
@@ -22,3 +23,11 @@ __pycache__/
 
 # Temporary files
 *.log
+
+
+# Machine Learning generated files
+logs/
+*.h5
+*.keras
+*.pkl
+*.joblib
