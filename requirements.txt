@@ -1,8 +1,7 @@
-# Tested dependency targets for the project's Apple Silicon / Python 3.11 setup.
-tensorflow==2.21.0
-numpy<2.2
-pandas
-scikit-learn
-tensorboard
-matplotlib
-streamlit==1.67.0
+# Streamlit Community Cloud runtime: Python 3.11 (see runtime.txt)
+# TensorFlow 2.15 supports Python 3.11 and loads the existing Keras HDF5 model.
+tensorflow==2.15.1
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.9.1
+streamlit==1.41.1
